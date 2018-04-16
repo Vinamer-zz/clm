@@ -1,4 +1,4 @@
-package clm.controller;
+package clm.controllers;
 
 import javax.validation.Valid;
 
