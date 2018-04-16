@@ -20,7 +20,7 @@ public class SwaggerConfig {
     @Bean
     public Docket hsbcApi() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .select().apis(RequestHandlerSelectors.basePackage("hsbc.inm.web.controllers"))
+                .select().apis(RequestHandlerSelectors.basePackage("clm.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
