@@ -13,6 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ApplicantDetailsTransformer {
 
+<<<<<<< HEAD
 	private static final String TAX_PURPOSE_COUNTRY = "India";
 	private static final int DURATION_OF_STAY = 3;
 	private static final String OTHERS = "Others";
@@ -38,4 +39,6 @@ public class ApplicantDetailsTransformer {
 
 	}
 
+=======
+>>>>>>> 2c7f322497048f4997972bdeaa6a394ce2d29ea6
 }
